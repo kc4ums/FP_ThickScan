@@ -1,10 +1,9 @@
-
 use DBI;
 
 my $press_product_id = 'C:\FP_ThickScan\Data\PressProductID.txt'; 			# Press Product ID From SQL Server
 
 my $dsn = 'DBI:ODBC:Driver={SQL Server}';
-my $host = '128.1.3.6,1433';
+my $host = 'xxx.x.x.x,1433';
 my $database = 'Runtime';
 my $user = 'sa';
 my $auth = 'sa';
